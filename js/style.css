@@ -1,0 +1,55 @@
+html,body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    background: #333 url("../images/image2copy.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    color: #aaa;
+  }
+  
+  h1,h2 {
+    font-weight: 200;
+    margin: 0.5em 0;
+  }
+  h1 { font-size: 3.5em; }
+  h2 {
+    color: #888;
+    font-size: 2em;
+  }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 3em;
+}
+
+
+
+@media(max-width: 1200px){
+  h1{
+    font-size: 5em;
+  }
+}
+
+@media(max-width: 800px){
+  .container{
+    padding: 0 1em;
+  }
+  h1{
+    font-size: 3em;
+  }
+}
+
+@media(max-width: 500px){
+  h1{
+    font-size: 2.5em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+}
