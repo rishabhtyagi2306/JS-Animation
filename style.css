@@ -1,7 +1,7 @@
 html,body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    background: #333 url("../images/image2copy.jpg");
+    background: #333 url("images/image2copy.jpg");
     background-size: cover;
     background-position: center;
     height: 100%;
